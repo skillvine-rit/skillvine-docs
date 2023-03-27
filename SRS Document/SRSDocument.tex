@@ -1,0 +1,277 @@
+\documentclass{article}
+\usepackage{graphicx} % Required for inserting images
+\usepackage[left=2cm,top=2cm,right=2cm,bottom=2cm,bindingoffset=0.4cm]{geometry}
+%\author{\bf{Anil Kumar S, Nisha K K \\ Faculty\\Department of Computer Science and Engineering \\ RIT Kottayam}}
+%\date{\today}
+\begin{document}
+\begin{center}
+\textbf{\Huge Software Requirement Specification}\\
+\vspace{70pt}
+\textbf{\Large for}\\
+\vspace{60pt}
+\textbf{\LARGE Project Name}\\
+\vspace{40pt}
+\textbf{\large Prepared by}\\
+\vspace{30pt}
+\textbf{\Large Alvin Varghese}\\
+\vspace{18pt}
+\textbf{\Large Anson Anthrayose Thomas}\\
+\vspace{18pt}
+\textbf{\Large Sreerag M}\\
+\vspace{18pt}
+\textbf{\Large Vignesh R Pillai}\\
+\vspace{70pt}
+\textbf{Department of Computer Science and Engineering}\\
+\vspace{20pt}
+\textbf{Rajiv Gandhi Institute of Technology,Kottayam}
+\end{center}
+\newpage
+\tableofcontents
+\newpage
+\section{Introduction}
+\subsection{Purpose}
+\emph{This is a web application designed to manage and automate the evaluation of activity points. It includes features such as the ability to store student certificates, view real-time activity point balances, and sort and search through the certificate list. The application also incorporates user authentication and data security measures.
+}
+\subsection{Document Conventions}
+\emph{In this SRS document, we have followed the following document conventions:
+Headings are written in Roman font.
+Body text is written in Times New Roman font.
+% Important information is highlighted in bold.
+Abbreviations are defined when first used and a list of abbreviations is provided at the end of the document in Glossary.
+} 
+\subsection{Intended Audience and Reading Suggestions}
+\emph{This SRS document is intended for the following readers:
+
+Developers: who will use the information in this document to design and implement the system.
+Project managers: who will use this document to plan and track the progress of the project.
+Testers: who will use this document to develop test cases and verify that the system meets the specified requirements.
+Users: who will use this document to understand the capabilities and limitations of the system.
+
+The requirements for the Activity Points Management System are covered in detail in the remaining sections of this SRS. An introduction, objectives, scope and constraints, user requirements, system features, and other sections are among the components that make up the document's structure.
+The user requirements and system features sections should then be thoroughly read by developers and testers. These sections may be helpful to project managers as well. To understand what they can anticipate from the system, users may choose to concentrate on the section on user requirements.
+}
+\subsection{Project Scope}
+\emph{The Activity Points Management System is a web application designed to manage and automate the evaluation of activity points. It includes features such as the ability to store student certificates, view real-time activity point balances, and sort and search through the certificate list. The application also incorporates user authentication and data security measures. scope verify
+}
+\subsection{References}
+\emph{exthaam }
+\section{Overall Description}
+\subsection{Product Perspective}
+\emph{wRITE PAIN, a replacement for existing manual systems}
+\subsection{Product Features}
+\emph{storage for students, realtim data for students knowig the current activity points, sorting and searching for certificates, user authentication and data security measures, vere ond ellam parayam.}
+\subsection{User Classes and Characteristics}
+\emph{
+There are two basic users - Teachers, Students.  
+All users have their own profiles in our Activity Points Management SYstem with different privileges.  
+Teachers can add, delete, update and view the student details. They can also assign points to certificates uploaded by the students.
+Students can view their own details and activity points. Students can upload certificates for teachers to either accept or reject.
+}
+\subsection{Operating Environment}
+\emph{Hardware Requirements
+The hardware requirements for the Activity Points Management System are as follows:
+Processor: Intel Pentium 4 or higher
+RAM: 2 GB or higher
+
+Software Requirements
+The software requirements for the Activity Points Management System are as follows:
+Operating System: Windows XP or higher
+Web Browser: Internet Explorer 6.0 or higher. The website works best when used with Google Chrome or Firefox.
+}
+\subsection{Design and Implementation Constraints}
+\emph{THALKALAM NONE}
+\subsection{User Documentation}
+\emph{Along with the software, the following user documentation components will be delivered:
+
+User manual: A comprehensive guide to using the Activity Points Management System, including step-by-step instructions and screenshots.
+The user manual will be delivered in PDF format and will also be available online.}
+\subsection{Assumptions and Dependencies}
+\emph{The following assumptions have been made while developing the requirements for the Activity Points Management System:
+
+The system will be developed using a open-source web development framework.
+The system will be hosted on a cloud-based server and will be accessible from any device with an internet connection.
+The system will be used by students and teachers who have basic computer skills and are familiar with web-based applications.
+
+The project has the following dependencies on external factors:
+
+The availability of a reliable cloud-based hosting service that can support the expected usage of the system.} 
+\section{System Features}
+\emph{This template illustrates organizing the functional requirements for the product by system features, the major services provided by the product. You may prefer to organize this section by use case, mode of operation, user class, object class, functional hierarchy, or combinations of these, whatever makes the most logical sense for your product.}
+
+
+
+
+\subsection{Authentication of Users and Teachers}
+\subsubsection{Description and Priority}
+\emph{Description: This feature allows students and teachers to securely authenticate with the system using their login credentials. Moreover, the app has an email-based verification process. The students are directed to their dashboards and the teachers are instantly recognized as admin.}
+\begin{itemize}
+  \item Priority: High
+  \item Benefit: 9 (The feature provides significant benefits by ensuring that only authorized students and teachers can access the system.)
+  \item Penalty: 9 (The absence of this feature would pose serious security issues.)
+  \item Cost: 7 (The cost of implementing this feature is moderate to high)
+  \item Risk: 2 (The risk associated with implementing this feature is low)
+\end{itemize}
+
+\subsubsection{Stimulus/Response Sequences}
+\begin{itemize}
+  \item The student or teacher accesses the login page of the system.
+  \item The user enters their login credentials (e.g., username and password).
+  \item The system verifies the user and redirects to home page.
+\end{itemize}
+
+\subsubsection{Functional Requirements}
+\begin{itemize}
+\item The system must provide a secure login page for students and teachers to enter their login credentials.
+\item The system must verify and authenticate users based on their login credentials.
+\item If the user enters incorrect credentials, error will be displayed.
+\end{itemize}
+
+
+
+
+\subsection{Dashboard for students and teachers}
+\subsubsection{Description and Priority}
+\emph{Description: This feature provides students with a dashboard that displays detailed information about their activity points and certificates, profile information, current status of activity points earned. The teacher's after completing authentication, can select a batch and a student from that batch to view a list of his/her certificates.
+This feature allows students to access a dashboard that displays comprehensive information about their earned activity points, certificates, and profile information. And for teachers, after authentication, they can select a specific batch and then a student to view the their list of certificates.}
+\begin{itemize}
+  \item Priority: High
+  \item Benefit:  8 (The feature provides significant benefits by giving students easy access to important information and for teachers, easy access to each student's profile)
+  \item Penalty: 6 (Not having this feature would result in some inconvenience for students and teachers.)
+  \item Cost:  5 (The cost of implementing this feature is moderate)
+  \item Risk: 2 (The risk associated with implementing this feature is low)
+\end{itemize}
+
+\subsubsection{Stimulus/Response Sequences}
+\begin{itemize}
+  \item The user logs in to the system.
+  \item The system displays the student’s dashboard or teacher's space to select branch and student name respectively.
+  \item The student can view detailed information about their activity points and certificates on the dashboard.
+  \item The student can add or view certificates from the links in dashboard. The teacher can edit or mark the certificates of a student.
+\end{itemize}
+
+\subsubsection{Functional Requirements}
+\begin{itemize}
+\item The system must provide a dashboard for students that displays detailed information about their activity points and certificates and a teacher's space to select branch and student.
+\item The system must display up-to-date information on the user’s dashboard.
+\item The system must allow users to view their dashboard after logging in.
+\end{itemize}
+
+
+
+
+\subsection{Uploading and editing certificates}
+\subsubsection{Description and Priority}
+\emph{Description: This feature allows students and teachers to securely authenticate with the system using their login credentials. Moreover, the app has an email-based verification process. The students are directed to their dashboards and the teachers are instantly recognized as admin.}
+\begin{itemize}
+  \item Priority: High
+  \item Benefit: 9 (The feature provides significant benefits by ensuring that only authorized students and teachers can access the system.)
+  \item Penalty: 9 (The absence of this feature would pose serious security issues.)
+  \item Cost: 7 (The cost of implementing this feature is moderate to high)
+  \item Risk: 2 (The risk associated with implementing this feature is low)
+\end{itemize}
+
+\subsubsection{Stimulus/Response Sequences}
+\begin{itemize}
+  \item The student or teacher accesses the login page of the system.
+  \item The user enters their login credentials (e.g., username and password).
+  \item The system verifies the user and redirects to home page.
+\end{itemize}
+
+\subsubsection{Functional Requirements}
+\begin{itemize}
+\item The system must provide a secure login page for students and teachers to enter their login credentials.
+\item The system must verify and authenticate users based on their login credentials.
+\item If the user enters incorrect credentials, error will be displayed.
+\end{itemize}
+
+
+
+
+\subsection{Authentication of Users and Teachers}
+\subsubsection{Description and Priority}
+\emph{Description: This feature allows students and teachers to securely authenticate with the system using their login credentials. Moreover, the app has an email-based verification process. The students are directed to their dashboards and the teachers are instantly recognized as admin.}
+\begin{itemize}
+  \item Priority: High
+  \item Benefit: 9 (The feature provides significant benefits by ensuring that only authorized students and teachers can access the system.)
+  \item Penalty: 9 (The absence of this feature would pose serious security issues.)
+  \item Cost: 7 (The cost of implementing this feature is moderate to high)
+  \item Risk: 2 (The risk associated with implementing this feature is low)
+\end{itemize}
+
+\subsubsection{Stimulus/Response Sequences}
+\begin{itemize}
+  \item The student or teacher accesses the login page of the system.
+  \item The user enters their login credentials (e.g., username and password).
+  \item The system verifies the user and redirects to home page.
+\end{itemize}
+
+\subsubsection{Functional Requirements}
+\begin{itemize}
+\item The system must provide a secure login page for students and teachers to enter their login credentials.
+\item The system must verify and authenticate users based on their login credentials.
+\item If the user enters incorrect credentials, error will be displayed.
+\end{itemize}
+
+
+
+
+
+\subsection{Authentication of Users and Teachers}
+\subsubsection{Description and Priority}
+\emph{Description: This feature allows students and teachers to securely authenticate with the system using their login credentials. Moreover, the app has an email-based verification process. The students are directed to their dashboards and the teachers are instantly recognized as admin.}
+\begin{itemize}
+  \item Priority: High
+  \item Benefit: 9 (The feature provides significant benefits by ensuring that only authorized students and teachers can access the system.)
+  \item Penalty: 9 (The absence of this feature would pose serious security issues.)
+  \item Cost: 7 (The cost of implementing this feature is moderate to high)
+  \item Risk: 2 (The risk associated with implementing this feature is low)
+\end{itemize}
+
+\subsubsection{Stimulus/Response Sequences}
+\begin{itemize}
+  \item The student or teacher accesses the login page of the system.
+  \item The user enters their login credentials (e.g., username and password).
+  \item The system verifies the user and redirects to home page.
+\end{itemize}
+
+\subsubsection{Functional Requirements}
+\begin{itemize}
+\item The system must provide a secure login page for students and teachers to enter their login credentials.
+\item The system must verify and authenticate users based on their login credentials.
+\item If the user enters incorrect credentials, error will be displayed.
+\end{itemize}
+
+
+
+
+\subsection{System Feature 2 (and so on)}
+\section{External Interface Requirements}
+\subsection{User Interfaces}
+\emph{Describe the logical characteristics of each interface between the software product and the users. This may include sample screen images, any GUI standards or product family style guides that are to be followed, screen layout constraints, standard buttons and functions (e.g., help) that will appear on every screen, keyboard shortcuts, error message display standards, and so on. Define the software components for which a user interface is needed. Details of the user interface design should be documented in a separate user interface specification.}
+\subsection{Hardware Interfaces}
+\emph{Describe the logical and physical characteristics of each interface between the software product and the hardware components of the system. This may include the supported device types, the nature of the data and control interactions between the software and the hardware, and communication protocols to be used.}
+\subsection{Software Interfaces}
+\emph{Describe the connections between this product and other specific software components (name and version), including databases, operating systems, tools, libraries, and integrated commercial components. Identify the data items or messages coming into the system and going out and describe the purpose of each. Describe the services needed and the nature of communications. Refer to documents that describe detailed application programming interface protocols. Identify data that will be shared across software components. If the data sharing mechanism must be implemented in a specific way (for example, use of a global data area in a multitasking operating system), specify this as an implementation constraint.}
+\subsection{Communications Interfaces}
+\emph{Describe the requirements associated with any communications functions required by this product, including e-mail, web browser, network server communications protocols, electronic forms, and so on. Define any pertinent message formatting. Identify any communication standards that will be used, such as FTP or HTTP. Specify any communication security or encryption issues, data transfer rates, and synchronization mechanisms.}
+\section{Other Nonfunctional Requirements}
+\subsection{Performance Requirements}
+\emph{If there are performance requirements for the product under various circumstances, state them here and explain their rationale, to help the developers understand the intent and make suitable design choices. Specify the timing relationships for real time systems. Make such requirements as specific as possible. You may need to state performance requirements for individual functional requirements or features.}
+\subsection{Safety Requirements}
+\emph{Specify those requirements that are concerned with possible loss, damage, or harm that could result from the use of the product. Define any safeguards or actions that must be taken, as well as actions that must be prevented. Refer to any external policies or regulations that state safety issues that affect the product’s design or use. Define any safety certifications that must be satisfied.}
+\subsection{Security Requirements}
+\emph{Specify any requirements regarding security or privacy issues surrounding use of the product or protection of the data used or created by the product. Define any user identity authentication requirements. Refer to any external policies or regulations containing security issues that affect the product. Define any security or privacy certifications that must be satisfied.}
+\subsection{Software Quality Attributes}
+\emph{Specify any additional quality characteristics for the product that will be important to either the customers or the developers. Some to consider are: adaptability, availability, correctness, flexibility, interoperability, maintainability, portability, reliability, reusability, robustness, testability, and usability. Write these to be specific, quantitative, and verifiable when possible. At the least, clarify the relative preferences for various attributes, such as ease of use over ease of learning.}
+\section{Other Requirements}
+\emph{Define any other requirements not covered elsewhere in the SRS. This might include database requirements, internationalization requirements, legal requirements, reuse objectives for the project, and so on. Add any new sections that are pertinent to the project.}
+\section{Appendix A: Glossary}
+\emph{Define all the terms necessary to properly interpret the SRS, including acronyms and abbreviations. You may wish to build a separate glossary that spans multiple projects or the entire organization, and just include terms specific to a single project in each SRS.}
+\section{Appendix B: Analysis Models}
+\emph{Optionally, include any pertinent analysis models, such as data flow diagrams, class diagrams, state-transition diagrams, or entity-relationship diagrams.}
+\section{Appendix C: Issues List}
+\emph{This is a dynamic list of the open requirements issues that remain to be resolved, including TBDs, pending decisions, information that is needed, conflicts awaiting resolution, and the like.
+GUI is only in English.  Login and password is used for the identification of users.  Only registered patients and doctors will be authorized to use the services.  Limited to HTTP/HTTPS.  This system is working for single server.
+}
+\end{document}
+
