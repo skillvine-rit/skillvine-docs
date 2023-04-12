@@ -9,7 +9,7 @@
 \vspace{70pt}
 \textbf{\Large for}\\
 \vspace{60pt}
-\textbf{\LARGE Project Name}\\
+\textbf{\LARGE SKillVine - Activity Points Manager}\\
 \vspace{40pt}
 \textbf{\large Prepared by}\\
 \vspace{30pt}
@@ -30,76 +30,106 @@
 \newpage
 \section{Introduction}
 \subsection{Purpose}
-\emph{This is a web application designed to manage and automate the evaluation of activity points. It includes features such as the ability to store student certificates, view real-time activity point balances, and sort and search through the certificate list. The application also incorporates user authentication and data security measures.
+\emph{This document provides a comprehensive overview of SkillVine - an Activity Points Manager, including its purpose, features, interfaces, capabilities, and operational and developmental constraints. 
 }
 \subsection{Document Conventions}
 \emph{In this SRS document, we have followed the following document conventions:
-Headings are written in Roman font.
-Body text is written in Times New Roman font.
-% Important information is highlighted in bold.
-Abbreviations are defined when first used and a list of abbreviations is provided at the end of the document in Glossary.
+\begin{itemize}
+    \item Headings are written in Roman font.
+    \item Body text is written in Times New Roman font.
+    \item Emphasized text is formatted in italics.
+    \item Important information is highlighted in bold.Abbreviations are defined when first used and a list of abbreviations is provided at the end of the document in Glossary.
+    \item Bulleted lists are formatted with bullets (•) and indented text.
+    \item Numbered lists are formatted with numbers and indented text.
+\end{itemize}
 } 
+
 \subsection{Intended Audience and Reading Suggestions}
-\emph{This SRS document is intended for the following readers:
-
-Developers: who will use the information in this document to design and implement the system.
-Project managers: who will use this document to plan and track the progress of the project.
-Testers: who will use this document to develop test cases and verify that the system meets the specified requirements.
-Users: who will use this document to understand the capabilities and limitations of the system.
-
-The requirements for the Activity Points Management System are covered in detail in the remaining sections of this SRS. An introduction, objectives, scope and constraints, user requirements, system features, and other sections are among the components that make up the document's structure.
-The user requirements and system features sections should then be thoroughly read by developers and testers. These sections may be helpful to project managers as well. To understand what they can anticipate from the system, users may choose to concentrate on the section on user requirements.
+\emph{The Software Requirements Specification (SRS) document is meant for the project evaluation team, project supervisor, and project guide who are responsible for evaluating the team's work.\\
+ \\
+ To ensure that all project requirements have been addressed, it is recommended that the evaluation team carefully review this document. The SRS document contains a comprehensive overview of the project's scope, including functional and non-functional requirements, design and implementation constraints. \\
+ \\
+ Technical terms and acronyms used throughout the document are defined in the Glossary (Appendix A). Additionally, the Issues List (Appendix B) provides a dynamic list of unresolved requirements issues such as TBDs, pending decisions, and conflicts that require resolution.
 }
 \subsection{Project Scope}
-\emph{The Activity Points Management System is a web application designed to manage and automate the evaluation of activity points. It includes features such as the ability to store student certificates, view real-time activity point balances, and sort and search through the certificate list. The application also incorporates user authentication and data security measures. scope verify
+\emph{
+The Activity Points Management System focuses on organising and automating the evaluation of activity points. Since a system will be in place for keeping track of each student's certificates and details, it is beneficial for both teachers and students. \\
+\\
+It has features like the ability to store student certificates, view activity point status in real-time, sort, and search the list of certificates for students. Additionally, allowing teachers to review and grade student-uploaded certificates.\\
 }
 \subsection{References}
 \emph{exthaam }
 \section{Overall Description}
 \subsection{Product Perspective}
-\emph{wRITE PAIN, a replacement for existing manual systems}
+\emph{The Activity Points Management System is a one-of-a-kind solution and currently, there is no other system that performs the same task. The system can replace the current manual procedures for the task, as it is capable of adapting to this purpose.\\
+Our system automates the entire process of grading and managing certificates. It can also offer a safe and convenient storage system for students to keep their certificates. The user-friendly interface makes it a breeze for both teachers and students to navigate. This can simplify the way teachers monitor each student's progress and number of activity points achieved.\\
+}
 \subsection{Product Features}
-\emph{storage for students, realtim data for students knowig the current activity points, sorting and searching for certificates, user authentication and data security measures, vere ond ellam parayam.}
+\emph{The system contains the following major features:
+\begin{itemize}
+    \item User authentication for students \& teachers.
+    \item Interactive dashboards for students \& teachers.
+    \item Adding, editing, \& displaying certificates with details.
+    \item Real-time viewing of activity points \& certificate status
+    \item Storage feature to organize \& maintain records of all certificates.
+    \item Notification system for updates to previously interacted certificates.
+    \item Sorting, searching, \& filtering of certificates for students \& teachers.
+    \item Grading or rejecting certificates with remarks for teachers.
+    \item Automatic calculation \& updating of activity points in the database.
+\end{itemize}
+}
 \subsection{User Classes and Characteristics}
 \emph{
-There are two basic users - Teachers, Students.  
-All users have their own profiles in our Activity Points Management SYstem with different privileges.  
-Teachers can add, delete, update and view the student details. They can also assign points to certificates uploaded by the students.
-Students can view their own details and activity points. Students can upload certificates for teachers to either accept or reject.
+The system will consist of two fundamental user roles - students and teachers.
+\begin{enumerate}
+    \item Students: These users will upload certificates and their details and also have their own dashboards. These users are interested in knowing their activity points real time.
+    \item Teachers: These users can add, delete, update and view the students' certificates' details. They can also assign points to certificates uploaded by the students.
+\end{enumerate}
 }
 \subsection{Operating Environment}
-\emph{Hardware Requirements
-The hardware requirements for the Activity Points Management System are as follows:
-Processor: Intel Pentium 4 or higher
-RAM: 2 GB or higher
-
-Software Requirements
-The software requirements for the Activity Points Management System are as follows:
-Operating System: Windows XP or higher
-Web Browser: Internet Explorer 6.0 or higher. The website works best when used with Google Chrome or Firefox.
+\emph{
+The activity points management application will be web-based and can be accessed through commonly used web browsers such as Google Chrome, Mozilla Firefox, Safari, and Microsoft Edge. It will work seamlessly on any operating system that supports web browsers, including Windows, MacOS, Linux, iOS, and Android, and can be accessed through standard personal computers or mobile devices with internet connectivity. The application will be self-contained and won't require any additional software to function.
 }
 \subsection{Design and Implementation Constraints}
-\emph{THALKALAM NONE}
+\emph{
+\begin{enumerate}
+    \item Hardware Limitations:
+        \begin{itemize}
+            \item The system should be designed to run on standard desktop or laptop hardware with reasonable specifications, as per industry standards.
+            \item The system should be able to handle a large number of concurrent users without crashing or significant performance degradation.
+        \end{itemize}
+    \item Technology Limitations:
+        \begin{itemize}
+            \item The front-end of the system will be developed using ReactJS framework.
+            \item The back-end of the system will be developed using Express Js. \& Node Js. run-time environment.
+            \item The database used will be MongoDB.
+            \item The system should adhere to RESTful API design principles.
+            \item The system should be compatible with major web browsers such as Google Chrome, Mozilla Firefox, and Safari.
+        \end{itemize}
+    \item Security Constraints:
+        \begin{itemize}
+            \item The system should ensure the confidentiality, integrity, and availability of user data.
+            \item The system should incorporate security measures such as encryption, access control, and secure communication protocols.
+            \item The system should be tested for vulnerabilities and potential security threats before deployment.
+        \end{itemize}
+\end{enumerate}
+}
 \subsection{User Documentation}
-\emph{Along with the software, the following user documentation components will be delivered:
-
-User manual: A comprehensive guide to using the Activity Points Management System, including step-by-step instructions and screenshots.
-The user manual will be delivered in PDF format and will also be available online.}
+\emph{
+Along with the software, the following user documentation components will be delivered:
+\begin{itemize}
+    \item User manual: A comprehensive guide to using the Activity Points Management System, including step-by-step instructions and screenshots. The user manual will be delivered in PDF format and will also be available online.
+\end{itemize}
+}
 \subsection{Assumptions and Dependencies}
-\emph{The following assumptions have been made while developing the requirements for the Activity Points Management System:
+\emph{
+\begin{itemize}
+    \item The implementation of the system relies on the hosting service and its underlying infrastructure.
+    \item The functionality of the system depends on the availability and compatibility of the required software frameworks and libraries, such as React, Flask, and their dependencies.
+\end{itemize}
+}
 
-The system will be developed using a open-source web development framework.
-The system will be hosted on a cloud-based server and will be accessible from any device with an internet connection.
-The system will be used by students and teachers who have basic computer skills and are familiar with web-based applications.
-
-The project has the following dependencies on external factors:
-
-The availability of a reliable cloud-based hosting service that can support the expected usage of the system.} 
 \section{System Features}
-\emph{This template illustrates organizing the functional requirements for the product by system features, the major services provided by the product. You may prefer to organize this section by use case, mode of operation, user class, object class, functional hierarchy, or combinations of these, whatever makes the most logical sense for your product.}
-
-
-
 
 \subsection{Authentication of Users and Teachers}
 \subsubsection{Description and Priority}
@@ -242,36 +272,197 @@ This feature allows students to access a dashboard that displays comprehensive i
 \end{itemize}
 
 
-
-
-\subsection{System Feature 2 (and so on)}
 \section{External Interface Requirements}
 \subsection{User Interfaces}
-\emph{Describe the logical characteristics of each interface between the software product and the users. This may include sample screen images, any GUI standards or product family style guides that are to be followed, screen layout constraints, standard buttons and functions (e.g., help) that will appear on every screen, keyboard shortcuts, error message display standards, and so on. Define the software components for which a user interface is needed. Details of the user interface design should be documented in a separate user interface specification.}
+\emph{The user interface consists of the following components}
+\begin{itemize}
+    \subsubsection*{\emph{Login and Registration page:}}
+\item \emph{Google Authentication - Users will need to input their institution email and password in order to access the system.
+Users who do not have an existing account will be redirected to a page to enter further details to register.
+}
+
+\subsubsection* {\emph{Student dashboard page:}}
+\item \emph{Navigation Bar - Users will be able to navigate areas of the system, such as the user's profile, detailed activity points information, certificates' list etc.}
+\item \emph{Activity Points Summary- This displays a summary of the user's activity points, including their total points, points earned in different categories, and points required for certain rewards or achievements.}
+\item \emph{Certificates- This displays a list of the user's certificates, including the certificate name, date earned, and any relevant details.}
+
+\subsubsection* {\emph{Teacher dashboard page:}}
+\emph{\item Navigation Menu - This provides links to different areas of the system, to list students or the batches available, view certificates of a student, verify and remark sections etc.}
+\emph{\item Summary- Status of certificate verification, number of certificates uploaded category wise.}
+
+\subsubsection* {\emph{View and edit pages:}}
+\emph{\item For Students -To view their uploaded certificates, edit details, re-upload, view status and remarks .}
+\emph{\item For Teachers-View, edit, verify and remark certificates based on the info provided.}
+
+\end{itemize}
+
+
+
 \subsection{Hardware Interfaces}
-\emph{Describe the logical and physical characteristics of each interface between the software product and the hardware components of the system. This may include the supported device types, the nature of the data and control interactions between the software and the hardware, and communication protocols to be used.}
+\emph{
+The hardware of the user's device will be primarily interfaced with by the software product. Different device types, such as desktops, laptops, tablets, and mobile phones, are supported by the system. Modern web browsers like Apple Safari, Mozilla Firefox, and Google Chrome will all work with the software.}\\
+
+\emph{Sending and receiving data through HTTP requests and responses will be necessary for the data and control interactions between the software and the hardware. The system will communicate with the back end server, which will store and handle the data, using a RESTful API. To enable user interaction with the system, the software will communicate with the hardware of the device, such as the display, keyboard, and mouse.}\\
+
+\emph{The software will use HTTPS for secure communication and JSON for data exchange in its communication protocols. Additionally, the software will use the user's device's local storage to save user preferences and cached information for offline use. The system will follow best practises for security, performance, and accessibility in addition to industry standards for web development.\\}
+
 \subsection{Software Interfaces}
-\emph{Describe the connections between this product and other specific software components (name and version), including databases, operating systems, tools, libraries, and integrated commercial components. Identify the data items or messages coming into the system and going out and describe the purpose of each. Describe the services needed and the nature of communications. Refer to documents that describe detailed application programming interface protocols. Identify data that will be shared across software components. If the data sharing mechanism must be implemented in a specific way (for example, use of a global data area in a multitasking operating system), specify this as an implementation constraint.}
+\emph{
+\begin{itemize}
+    \item Back end framework:The activity point manager will use the Express Js. (latest version) for the back end.
+development.
+    \item Database: The app will use MongoDB (latest version) as the database management system.
+    \item Data items: The app will receive data such as user details , different certificate data from storage of the back end,  back end will also  analysis different certificates based on their credentials and recommend the activity point for the certificates and it provides student details based on different batch.
+    \item Services:The app will need services such as teacher student authentication , an external cloud service for storing different certificates,data processing and storage in database , and recommendation of activity point.
+    \item Communications: The communication between the app and external APIs will be done using RESTful API calls. The communication between the app and the back end will be done using HTTP requests and responses.
+\end{itemize}
+}
+
+
 \subsection{Communications Interfaces}
-\emph{Describe the requirements associated with any communications functions required by this product, including e-mail, web browser, network server communications protocols, electronic forms, and so on. Define any pertinent message formatting. Identify any communication standards that will be used, such as FTP or HTTP. Specify any communication security or encryption issues, data transfer rates, and synchronization mechanisms.}
+\emph{
+\begin{itemize}
+\item The activity  point manager app requires various communication functions to operate seamlessly .These communication functions include 
+web browser ,network server communication protocols ,electronic forms and more
+\item The app will use the HTTP protocol for communication between the front end and back end components. REST-ful API calls will be used for communication between the app and external APIs.
+\item All the server client communication will follow standard formatting guidelines to ensure that they are understood and processed correctly. For example, requests and responses will follow the JSON format.
+\item The app will adhere to the relevant communication standards such as HTTP and SMTP for email communication. Communication security and encryption will be implemented using SSL/TLS protocols to secure data transfer between the app and the server.
+\item Data transfer rates and synchronization mechanisms will be optimized to ensure that the app operates efficiently,and data is synced across all devices in real-time. In addition, the app will be designed to handle network interruptions,
+so data can be transmitted and received without any data loss or corruption.
+\item Overall, the activity point manager app communication functions will be designed to ensure that teachers and students can interact with the app seamlessly and receive the desired results with minimum delays or errors.
+\end{itemize}
+}
+
+
+
 \section{Other Nonfunctional Requirements}
 \subsection{Performance Requirements}
-\emph{If there are performance requirements for the product under various circumstances, state them here and explain their rationale, to help the developers understand the intent and make suitable design choices. Specify the timing relationships for real time systems. Make such requirements as specific as possible. You may need to state performance requirements for individual functional requirements or features.}
+\emph{
+ The following performance requirements must be met by the activity point management web app for students:
+\begin{enumerate}
+\item Response Time: The app must respond to user requests within 2 seconds. This includes all API calls, page loads, and data retrieval operations. The response time must not increase with an increase in the number of users.
+\item Scalability: The app must be scalable to handle a large number of users. The system must be able to handle at least 1000 concurrent users without any decrease in performance.
+\item Reliability: The app must be highly reliable and available at all times. The system must have an uptime of at least 99.9\%  with a maximum downtime of 5 minutes per month.
+\item Data Retrieval Time: The app must be able to retrieve data related to activity points within 1 second. This includes certificate validation and activity point calculation.
+\item Data Processing Time: The app must be able to process and store user data within 3 seconds. This includes certificates uploaded by students, activity points awarded by teachers, and any other relevant information.
+\item Real-time updates: Any updates to activity points, certificates, or remarks provided by teachers must be reflected in real-time on the app. The app must be able to handle at least 10 updates per second without any decrease in performance.
+\end{enumerate}
+}
+
 \subsection{Safety Requirements}
-\emph{Specify those requirements that are concerned with possible loss, damage, or harm that could result from the use of the product. Define any safeguards or actions that must be taken, as well as actions that must be prevented. Refer to any external policies or regulations that state safety issues that affect the product’s design or use. Define any safety certifications that must be satisfied.}
+\emph{
+\begin{enumerate}
+    \item  Data Security: The product must ensure that user data is protected from unauthorized access, modification, or deletion. The app shall use secure authentication mechanisms to prevent unauthorized access. Additionally, the app shall have proper access controls in place to ensure that only authorized personnel can access the app's data and functionality.
+    \item Data Privacy: The project must guarantee that user data, including personal data and activity certificates, is secure and private. The app must abide by all applicable data privacy laws and rules, including the California Consumer Privacy Act (CCPA) and the General Data Protection Regulation (GDPR). User information must be safely kept in the database and transmitted using encryption. 
+    \item Performance under load: The product must be able to perform reliably and efficiently under heavy loads, such as during peak usage periods or high-volume data retrieval operations. The system must respond to user requests within a reasonable time frame, not exceeding 3 seconds.
+    \item Disaster recovery: The product must have a disaster recovery plan in place to ensure that data and functionality can be restored in the event of a disaster, such as a server failure or data breach.
+\end{enumerate}
+}
+
 \subsection{Security Requirements}
-\emph{Specify any requirements regarding security or privacy issues surrounding use of the product or protection of the data used or created by the product. Define any user identity authentication requirements. Refer to any external policies or regulations containing security issues that affect the product. Define any security or privacy certifications that must be satisfied.}
+\emph{
+\begin{enumerate}
+    \item The product must ensure the confidentiality and integrity of user data, including personal information, activity logs, and point balances.
+\item All sensitive user data must be encrypted both at rest and in transit, using industry-standard encryption algorithms.
+\item The product must implement secure communication protocols to protect user data during transmission, including SSL/TLS encryption and HTTP strict transport security.
+\item The product must provide user authentication mechanisms that comply with relevant security standards, such as multi-factor authentication or password complexity requirements.
+\item The product must undergo regular security testing and vulnerability assessments, including penetration testing and code review.
+Access controls must be implemented to ensure that only authorized users can view or modify sensitive data.
+\item The product must provide users with transparency and control over their data, including the ability to view and delete their personal information.
+\item The product must comply with all relevant data privacy and protection laws and regulations, including but not limited to GDPR, CCPA, and the Health Insurance Portability and Accountability Act (HIPAA) if applicable.
+\item The product must ensure that any third-party services or APIs used also meet the same security and privacy requirements as the product itself.
+\item The product must obtain any necessary security or privacy certifications or approvals required for its use or distribution, such as ISO 27001 or SOC 2 Type II.
+\end{enumerate}
+}
+
 \subsection{Software Quality Attributes}
-\emph{Specify any additional quality characteristics for the product that will be important to either the customers or the developers. Some to consider are: adaptability, availability, correctness, flexibility, interoperability, maintainability, portability, reliability, reusability, robustness, testability, and usability. Write these to be specific, quantitative, and verifiable when possible. At the least, clarify the relative preferences for various attributes, such as ease of use over ease of learning.}
+\emph{
+\begin{enumerate}
+\item Usability: The product shall be easy to learn and use, with a UI/UX that is intuitive and consistent. Users should be able to complete common tasks quickly and efficiently, with minimal errors.
+\item Reliability: The product shall be dependable and consistently perform as expected. It shall have a low rate of failure, and any errors or malfunctions shall be easily identifiable and recoverable.
+\item Maintainability: The product shall be easy to maintain and update, with well-documented code and clear instructions for making changes. Updates and bug fixes should be able to be implemented quickly and without disrupting other parts of the system.
+\item Portability: The product shall be easily portable to different platforms and environments, with minimal changes required to adapt to new systems.
+\item Interoperability: The product shall be able to integrate with other systems and platforms seamlessly, without requiring significant modifications or customizations.
+\item Scalability: The product shall be able to handle increased usage and data storage requirements without a significant decrease in performance or stability.
+\item Security: The product shall have strong security measures in place to protect user data and prevent unauthorized access or attacks.
+\item Performance: The product shall be designed to have fast response times and minimal latency, with the ability to handle a high volume of user requests and data processing tasks.
+\item Performance: The product shall be designed to have fast response times and minimal latency, with the ability to handle a high volume of user requests and data processing tasks.
+\end{enumerate}
+}
+
 \section{Other Requirements}
-\emph{Define any other requirements not covered elsewhere in the SRS. This might include database requirements, internationalization requirements, legal requirements, reuse objectives for the project, and so on. Add any new sections that are pertinent to the project.}
+\subsection{User Documentation}
+\emph{
+\begin{itemize}
+    \item User Documentation: Specify the user documentation that must be provided with the product, such as user manuals, online help, or training materials.
+\end{itemize}
+}
+
+\subsection{Database requirements}
+\emph{
+\begin{itemize}
+\item The database should be designed to efficiently store and retrieve activity point data.
+\item The database schema should be normalized to reduce redundancy and ensure data integrity.
+\item The database should be designed to handle a large number of concurrent users.
+The database should support backup and recovery procedures to ensure data availability in case of system failure.
+\item The database should be secured to prevent unauthorized access or modification of activity point data.
+\item The database should be optimized for fast query processing and report generation.
+\item The database should have sufficient capacity to handle future growth in activity point data.
+\item The database should support data import and export functionalities to allow easy data transfer between systems
+\end{itemize}
+}
+
+\subsection{Internationalization Requirements}
+\emph{
+\begin{itemize}
+\item The application  must support different date and time formats based on the user's locale.
+\item The application must support English as the primary language. The application must
+also be designed to support additional languages in the future, may the regional lanuage of the users.
+\item For there to be translation, all text that is displayed to the user, including labels, messages, and error messages, must be externalised to resource files.
+\end{itemize}
+}
+
+\subsection{Legal Requirements}
+\emph{
+\begin{itemize}
+    \item Intellectual property rights: The product must not infringe on any third-party intellectual property rights, including patents, trademarks, and copyrights.
+    \item The software must comply with all applicable export control laws and regulations, including those related to the export of encryption technology.
+\end{itemize}
+}
+
+\subsection{Reuse Objectives}
+\emph{
+\begin{itemize}
+    \item Modular design: The project should be designed with modularity in mind, so that components can be easily reused in future projects.
+\item Standardization: The project should follow widely recognized standards for coding, documentation, and design, so that other developers can easily understand and reuse the artifacts.
+\item Open-source: Consider releasing the project as open-source software, with appropriate licensing, so that it can be easily reused and modified by other developers.
+\item Compatibility: The project should be designed to be compatible with other systems and technologies, so that its components can be easily integrated into future projects
+\end{itemize}
+}
+
 \section{Appendix A: Glossary}
-\emph{Define all the terms necessary to properly interpret the SRS, including acronyms and abbreviations. You may wish to build a separate glossary that spans multiple projects or the entire organization, and just include terms specific to a single project in each SRS.}
-\section{Appendix B: Analysis Models}
-\emph{Optionally, include any pertinent analysis models, such as data flow diagrams, class diagrams, state-transition diagrams, or entity-relationship diagrams.}
-\section{Appendix C: Issues List}
-\emph{This is a dynamic list of the open requirements issues that remain to be resolved, including TBDs, pending decisions, information that is needed, conflicts awaiting resolution, and the like.
-GUI is only in English.  Login and password is used for the identification of users.  Only registered patients and doctors will be authorized to use the services.  Limited to HTTP/HTTPS.  This system is working for single server.
+\emph{
+    \begin{itemize}
+        \item API - Application Programming Interface
+        \item HTTP - Hypertext Transfer Protocol
+        \item HTTPS - Hypertext Transfer Protocol Secure
+        \item JSON - JavaScript Object Notation
+        \item SMTP - Simple Mail Transfer Protocol
+        \item SOC 2 - System and Organization Controls 2
+        \item SRS - Software Requirements Specification
+        \item SSL/TLS - Secure Sockets Layer/Transport Layer Security
+        \item TBD - To Be Determined
+        \item UI - User Interface
+        \item UX - User Experience
+        
+    \end{itemize}
+}
+
+\section{Appendix B: Issues List}
+\emph{
+\begin{itemize}
+    \item \emph{Insufficient input validation of certificate data - In cases where students enter incorrect input for eg. category the certificate belongs to, as there is no mechanism in place to detect and alert the user to the mistake. Although teachers can correct mistakes on their end, human errors can result in miscalculation of activity points, which can have a negative impact on the accuracy of the system's data.}
+\end{itemize}
 }
 \end{document}
 
