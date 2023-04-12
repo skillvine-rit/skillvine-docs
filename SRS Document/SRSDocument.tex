@@ -58,7 +58,13 @@ The Activity Points Management System focuses on organising and automating th
 It has features like the ability to store student certificates, view activity point status in real-time, sort, and search the list of certificates for students. Additionally, allowing teachers to review and grade student-uploaded certificates.\\
 }
 \subsection{References}
-\emph{exthaam }
+\emph{
+\begin{enumerate}
+    \item SRS Tech. (2023). School management software. https://srs.tech/school-management-software/
+    \item KTU Academics. (n.d.). Rules for assigning activity points: Encouraging the extra and co curricular activities of B.Tech & B.Arch students. APJ Abdul Kalam Technological University. https://ktu.edu.in/eu/att/attachments.htm?download=file&id=Bf1Ie64NNlCIbQPgxzMeiqaZaITiPNKhe24NqRVOreE\%3D&announcementId=m3wIwIqGuozHQ0OdieVW5qKOb3nLceuS9zOdUcOhnN4\%3D&fileName=ACTIVITYPOINTS.pdf
+    \item Extracurricular Activities and Academic Achievement: A Literature Review by Marie Correa, Brandon K. Dumas, Chanika Jones, Victor Mbarika and Isaac M. Ong'oa
+\end{enumerate}
+}
 \section{Overall Description}
 \subsection{Product Perspective}
 \emph{The Activity Points Management System is a one-of-a-kind solution and currently, there is no other system that performs the same task. The system can replace the current manual procedures for the task, as it is capable of adapting to this purpose.\\
@@ -131,7 +137,7 @@ Along with the software, the following user documentation components will be del
 
 \section{System Features}
 
-\subsection{Authentication of Users and Teachers}
+\subsection{Authentication of Students and Teachers}
 \subsubsection{Description and Priority}
 \emph{Description: This feature allows students and teachers to securely authenticate with the system using their login credentials. Moreover, the app has an email-based verification process. The students are directed to their dashboards and the teachers are instantly recognized as admin.}
 \begin{itemize}
@@ -189,86 +195,118 @@ This feature allows students to access a dashboard that displays comprehensive i
 
 
 
-\subsection{Uploading and editing certificates}
+\subsection{Uploading, Storing, \& Editing certificates and their details.}
 \subsubsection{Description and Priority}
-\emph{Description: This feature allows students and teachers to securely authenticate with the system using their login credentials. Moreover, the app has an email-based verification process. The students are directed to their dashboards and the teachers are instantly recognized as admin.}
+\emph{Description: This feature allows students to upload and store certificates for the events they participated. Moreover it allows students to edit the details of a certificate. It allows accurate tracking and recording of student progress.}
 \begin{itemize}
   \item Priority: High
-  \item Benefit: 9 (The feature provides significant benefits by ensuring that only authorized students and teachers can access the system.)
-  \item Penalty: 9 (The absence of this feature would pose serious security issues.)
-  \item Cost: 7 (The cost of implementing this feature is moderate to high)
-  \item Risk: 2 (The risk associated with implementing this feature is low)
+  \item Benefit: 9 (The feature provides significant benefits by ensuring that the main purpose of system is fulfilled.)
+  \item Penalty: 9 (The absence of this feature would make the system functionless.)
+  \item Cost: 8 (The cost of implementing this feature is moderate to high)
+  \item Risk: 3 (The risk associated with implementing this feature is low)
 \end{itemize}
 
 \subsubsection{Stimulus/Response Sequences}
 \begin{itemize}
-  \item The student or teacher accesses the login page of the system.
-  \item The user enters their login credentials (e.g., username and password).
-  \item The system verifies the user and redirects to home page.
+  \item Students upload certificates, teachers grade and mark activities.
+  \item Students can edit the details of a specific certificate they uploaded.
 \end{itemize}
 
 \subsubsection{Functional Requirements}
 \begin{itemize}
-\item The system must provide a secure login page for students and teachers to enter their login credentials.
-\item The system must verify and authenticate users based on their login credentials.
-\item If the user enters incorrect credentials, error will be displayed.
+\item User and instructor interface for uploading, viewing, and storing certificates, system for integration with the overall grading system.
 \end{itemize}
 
 
 
 
-\subsection{Authentication of Users and Teachers}
+\subsection{Viewing Status of Certificates and Grading them}
 \subsubsection{Description and Priority}
-\emph{Description: This feature allows students and teachers to securely authenticate with the system using their login credentials. Moreover, the app has an email-based verification process. The students are directed to their dashboards and the teachers are instantly recognized as admin.}
+\emph{Description: This feature allows students to view the status of their certificates and provides teachers with a grading system for activity points.}
 \begin{itemize}
   \item Priority: High
-  \item Benefit: 9 (The feature provides significant benefits by ensuring that only authorized students and teachers can access the system.)
-  \item Penalty: 9 (The absence of this feature would pose serious security issues.)
-  \item Cost: 7 (The cost of implementing this feature is moderate to high)
-  \item Risk: 2 (The risk associated with implementing this feature is low)
+  \item Benefit: 9 (The feature provides significant benefits by enabling students to track their progress and understand the grading system used for activity points.)
+  \item Penalty: 7 (The absence of this feature would pose significant issues for students who are unable to track their progress and understand the grading system used for activity points.)
+  \item Cost: 6 (The cost of implementing this feature is moderate to high, depending on the complexity of the system.)
+  \item Risk: 4 (The risk associated with implementing this feature is moderate, as there is a potential for technical issues or errors in displaying the information correctly.)
 \end{itemize}
 
 \subsubsection{Stimulus/Response Sequences}
 \begin{itemize}
-  \item The student or teacher accesses the login page of the system.
-  \item The user enters their login credentials (e.g., username and password).
-  \item The system verifies the user and redirects to home page.
+  \item The student logs in to their account.
+  \item The student navigates to the activity point section of their account.
+  \item The system displays the status of each certificate and the grading system used for awarding activity points.
 \end{itemize}
 
 \subsubsection{Functional Requirements}
 \begin{itemize}
-\item The system must provide a secure login page for students and teachers to enter their login credentials.
-\item The system must verify and authenticate users based on their login credentials.
-\item If the user enters incorrect credentials, error will be displayed.
+\item The system must provide a user interface for accessing the activity point section of the student's account.
+\item The system must display the status of each certificate and the grading system used for awarding activity points.
+\item The certificate status and grading system must be accurate and updated in real-time.
+\item The system must be secure to ensure that only authorized users can access the activity point section.
 \end{itemize}
 
 
 
 
 
-\subsection{Authentication of Users and Teachers}
+\subsection{Notification system for students and Teachers}
 \subsubsection{Description and Priority}
-\emph{Description: This feature allows students and teachers to securely authenticate with the system using their login credentials. Moreover, the app has an email-based verification process. The students are directed to their dashboards and the teachers are instantly recognized as admin.}
+\emph{Description: This feature enables students to view the status of their certificates in the system and understand any changes made by teachers. Teachers can accept or reject certificates based on their evaluation, and students will be notified of these changes.}
 \begin{itemize}
   \item Priority: High
-  \item Benefit: 9 (The feature provides significant benefits by ensuring that only authorized students and teachers can access the system.)
-  \item Penalty: 9 (The absence of this feature would pose serious security issues.)
-  \item Cost: 7 (The cost of implementing this feature is moderate to high)
-  \item Risk: 2 (The risk associated with implementing this feature is low)
+  \item Benefit: 9 (The feature provides significant benefits by enabling students to track the progress of their certificates and understand any changes made by teachers.)
+  \item Penalty: 8 (The absence of this feature would pose serious issues for students who are unable to track the status of their certificates and understand any changes made by teachers.)
+  \item Cost: 7 (The cost of implementing this feature is moderate to high, depending on the complexity of the system.)
+  \item Risk: 5 (The risk associated with implementing this feature is moderate, as there is a potential for technical issues or errors in displaying the information correctly or notifying students of changes.)
 \end{itemize}
 
 \subsubsection{Stimulus/Response Sequences}
 \begin{itemize}
-  \item The student or teacher accesses the login page of the system.
-  \item The user enters their login credentials (e.g., username and password).
-  \item The system verifies the user and redirects to home page.
+  \item The student accesses the system and views the status of their certificates.
+  \item If a teacher rejects a certificate, the system will notify the student of the rejection and provide feedback from the teacher.
+  \item If a teacher accepts a certificate, the system will notify the student of the acceptance and update the status of the certificate.
+  \item The student can view the feedback from the teacher and make necessary changes to the certificate.
 \end{itemize}
 
 \subsubsection{Functional Requirements}
 \begin{itemize}
-\item The system must provide a secure login page for students and teachers to enter their login credentials.
-\item The system must verify and authenticate users based on their login credentials.
-\item If the user enters incorrect credentials, error will be displayed.
+\item The system must allow students to view the status of their certificates and understand any changes made by teachers.
+\item The system must enable teachers to accept or reject certificates based on their evaluation.
+\item If a certificate is rejected, the system must notify the student and provide feedback from the teacher.
+\item If a certificate is accepted, the system must notify the student and update the status of the certificate.
+\item The system must allow students to view the feedback from the teacher and make necessary changes to the certificate.
+\end{itemize}
+
+
+
+\subsection{Report Generation}
+\subsubsection{Description and Priority}
+\emph{Description: This feature enables teachers to generate reports based on batch and student-wise criteria, which can be accessed and used at any time. The system generates customized reports that include relevant data on student performance, grades, attendance, and other criteria. Teachers can generate reports at the last minute for their immediate use, making it a convenient and efficient tool for assessing student progress.}
+\begin{itemize}
+  \item Priority: High
+  \item Benefit: 9 (The feature provides significant benefits by enabling teachers to generate customized reports based on specific criteria and assess student performance efficiently and conveniently.)
+  \item Penalty: 8 (The absence of this feature would pose serious issues for teachers who rely on reports to evaluate student progress and identify areas for improvement, especially in situations where immediate access to data is necessary.)
+  \item Cost: 7 (The cost of implementing this feature is moderate to high, depending on the complexity of the system and the number of criteria that reports need to be generated for)
+  \item Risk: 5 (The risk associated with implementing this feature is moderate, as there is a potential for technical issues or errors in generating accurate and relevant reports)
+\end{itemize}
+
+\subsubsection{Stimulus/Response Sequences}
+\begin{itemize}
+  \item The teacher accesses the report generation feature in the system.
+  \item The teacher selects the batch or student-wise criteria for the report.
+  \item The system generates a customized report that includes information on student performance, grades, attendance, and other relevant data.
+  \item The report is immediately available for the teacher's use.
+\end{itemize}
+
+\subsubsection{Functional Requirements}
+\begin{itemize}
+    \item The system must provide a user interface for accessing the report generation feature.
+    \item The system must allow the teacher to select batch or student-wise criteria for the report.
+    \item The system must generate reports that include information on student performance, grades, attendance, and other relevant data.
+    \item The reports must be customized based on the selected criteria and accurately reflect the student's performance.
+    \item The system must ensure that the generated reports are immediately available for the teacher's use and accessible at any time.
+    \item The system must ensure that only authorized users can access the report generation feature and the generated reports.
 \end{itemize}
 
 
