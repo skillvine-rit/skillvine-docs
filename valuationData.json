@@ -1,0 +1,916 @@
+[
+  {
+    "activityHead": "National Initiatives Participation",
+    "activity": "NCC",
+    "isLeadership": false,
+    "activityPoints": {
+      "level1": 60,
+      "level2": 60,
+      "level3": 60,
+      "level4": 60,
+      "level5": 60
+    },
+    "leadershipPoints": {
+      "coreCoordinator": null,
+      "subCoordinator": null,
+      "volunteer": null
+    },
+    "maxPoints": 60,
+    "minDuration": 2
+  },
+  {
+    "activityHead": "National Initiatives Participation",
+    "activity": "NSS",
+    "isLeadership": false,
+    "activityPoints": {
+      "level1": 60,
+      "level2": 60,
+      "level3": 60,
+      "level4": 60,
+      "level5": 60
+    },
+    "leadershipPoints": {
+      "coreCoordinator": null,
+      "subCoordinator": null,
+      "volunteer": null
+    },
+    "maxPoints": 60,
+    "minDuration": 2
+  },
+  {
+    "activityHead": "Sports & Games Participation",
+    "activity": "Sports  - Participation",
+    "isLeadership": false,
+    "activityPoints": {
+      "level1": 8,
+      "level2": 15,
+      "level3": 25,
+      "level4": 40,
+      "level5": 60
+    },
+    "leadershipPoints": {
+      "coreCoordinator": null,
+      "subCoordinator": null,
+      "volunteer": null
+    },
+    "maxPoints": 60,
+    "minDuration": 1
+  },
+  {
+    "activityHead": "Sports & Games Participation",
+    "activity": "Sports - First Prize",
+    "isLeadership": false,
+    "activityPoints": {
+      "level1": 10,
+      "level2": 10,
+      "level3": 10,
+      "level4": 20,
+      "level5": 20
+    },
+    "leadershipPoints": {
+      "coreCoordinator": null,
+      "subCoordinator": null,
+      "volunteer": null
+    },
+    "maxPoints": 80,
+    "minDuration": 1
+  },
+  {
+    "activityHead": "Sports & Games Participation",
+    "activity": "Sports - Second Prize",
+    "isLeadership": false,
+    "activityPoints": {
+      "level1": 8,
+      "level2": 8,
+      "level3": 8,
+      "level4": 16,
+      "level5": 16
+    },
+    "leadershipPoints": {
+      "coreCoordinator": null,
+      "subCoordinator": null,
+      "volunteer": null
+    },
+    "maxPoints": 80,
+    "minDuration": 1
+  },
+  {
+    "activityHead": "Sports & Games Participation",
+    "activity": "Sports - Third Prize",
+    "isLeadership": false,
+    "activityPoints": {
+      "level1": 5,
+      "level2": 5,
+      "level3": 5,
+      "level4": 12,
+      "level5": 12
+    },
+    "leadershipPoints": {
+      "coreCoordinator": null,
+      "subCoordinator": null,
+      "volunteer": null
+    },
+    "maxPoints": 80,
+    "minDuration": 1
+  },
+  {
+    "activityHead": "Sports & Games Participation",
+    "activity": "Games  - Participation",
+    "isLeadership": false,
+    "activityPoints": {
+      "level1": 8,
+      "level2": 15,
+      "level3": 25,
+      "level4": 40,
+      "level5": 60
+    },
+    "leadershipPoints": {
+      "coreCoordinator": null,
+      "subCoordinator": null,
+      "volunteer": null
+    },
+    "maxPoints": 60,
+    "minDuration": 1
+  },
+  {
+    "activityHead": "Sports & Games Participation",
+    "activity": "Games - First Prize",
+    "isLeadership": false,
+    "activityPoints": {
+      "level1": 10,
+      "level2": 10,
+      "level3": 10,
+      "level4": 20,
+      "level5": 20
+    },
+    "leadershipPoints": {
+      "coreCoordinator": null,
+      "subCoordinator": null,
+      "volunteer": null
+    },
+    "maxPoints": 80,
+    "minDuration": 1
+  },
+  {
+    "activityHead": "Sports & Games Participation",
+    "activity": "Games - Second Prize",
+    "isLeadership": false,
+    "activityPoints": {
+      "level1": 8,
+      "level2": 8,
+      "level3": 8,
+      "level4": 16,
+      "level5": 16
+    },
+    "leadershipPoints": {
+      "coreCoordinator": null,
+      "subCoordinator": null,
+      "volunteer": null
+    },
+    "maxPoints": 80,
+    "minDuration": 1
+  },
+  {
+    "activityHead": "Sports & Games Participation",
+    "activity": "Games - Third Prize",
+    "isLeadership": false,
+    "activityPoints": {
+      "level1": 5,
+      "level2": 5,
+      "level3": 5,
+      "level4": 12,
+      "level5": 12
+    },
+    "leadershipPoints": {
+      "coreCoordinator": null,
+      "subCoordinator": null,
+      "volunteer": null
+    },
+    "maxPoints": 80,
+    "minDuration": 1
+  },
+  {
+    "activityHead": "Cultural Activities Participation",
+    "activity": "Music - Participation",
+    "isLeadership": false,
+    "activityPoints": {
+      "level1": 8,
+      "level2": 12,
+      "level3": 20,
+      "level4": 40,
+      "level5": 60
+    },
+    "leadershipPoints": {
+      "coreCoordinator": null,
+      "subCoordinator": null,
+      "volunteer": null
+    },
+    "maxPoints": 60,
+    "minDuration": 1
+  },
+  {
+    "activityHead": "Sports & Games Participation",
+    "activity": "Music - First Prize",
+    "isLeadership": false,
+    "activityPoints": {
+      "level1": 10,
+      "level2": 10,
+      "level3": 10,
+      "level4": 20,
+      "level5": 20
+    },
+    "leadershipPoints": {
+      "coreCoordinator": null,
+      "subCoordinator": null,
+      "volunteer": null
+    },
+    "maxPoints": 80,
+    "minDuration": 1
+  },
+  {
+    "activityHead": "Sports & Games Participation",
+    "activity": "Music - Second Prize",
+    "isLeadership": false,
+    "activityPoints": {
+      "level1": 8,
+      "level2": 8,
+      "level3": 8,
+      "level4": 16,
+      "level5": 16
+    },
+    "leadershipPoints": {
+      "coreCoordinator": null,
+      "subCoordinator": null,
+      "volunteer": null
+    },
+    "maxPoints": 80,
+    "minDuration": 1
+  },
+  {
+    "activityHead": "Sports & Games Participation",
+    "activity": "Music - Third Prize",
+    "isLeadership": false,
+    "activityPoints": {
+      "level1": 5,
+      "level2": 5,
+      "level3": 5,
+      "level4": 12,
+      "level5": 12
+    },
+    "leadershipPoints": {
+      "coreCoordinator": null,
+      "subCoordinator": null,
+      "volunteer": null
+    },
+    "maxPoints": 80,
+    "minDuration": 1
+  },
+  {
+    "activityHead": "Cultural Activities Participation",
+    "activity": "Performing arts - Participation",
+    "isLeadership": false,
+    "activityPoints": {
+      "level1": 8,
+      "level2": 12,
+      "level3": 20,
+      "level4": 40,
+      "level5": 60
+    },
+    "leadershipPoints": {
+      "coreCoordinator": null,
+      "subCoordinator": null,
+      "volunteer": null
+    },
+    "maxPoints": 60,
+    "minDuration": 1
+  },
+  {
+    "activityHead": "Sports & Games Participation",
+    "activity": "Performing arts - First Prize",
+    "isLeadership": false,
+    "activityPoints": {
+      "level1": 10,
+      "level2": 10,
+      "level3": 10,
+      "level4": 20,
+      "level5": 20
+    },
+    "leadershipPoints": {
+      "coreCoordinator": null,
+      "subCoordinator": null,
+      "volunteer": null
+    },
+    "maxPoints": 80,
+    "minDuration": 1
+  },
+  {
+    "activityHead": "Sports & Games Participation",
+    "activity": "Performing arts - Second Prize",
+    "isLeadership": false,
+    "activityPoints": {
+      "level1": 8,
+      "level2": 8,
+      "level3": 8,
+      "level4": 16,
+      "level5": 16
+    },
+    "leadershipPoints": {
+      "coreCoordinator": null,
+      "subCoordinator": null,
+      "volunteer": null
+    },
+    "maxPoints": 80,
+    "minDuration": 1
+  },
+  {
+    "activityHead": "Sports & Games Participation",
+    "activity": "Performing arts - Third Prize",
+    "isLeadership": false,
+    "activityPoints": {
+      "level1": 5,
+      "level2": 5,
+      "level3": 5,
+      "level4": 12,
+      "level5": 12
+    },
+    "leadershipPoints": {
+      "coreCoordinator": null,
+      "subCoordinator": null,
+      "volunteer": null
+    },
+    "maxPoints": 80,
+    "minDuration": 1
+  },
+  {
+    "activityHead": "Cultural Activities Participation",
+    "activity": "Literary arts - Participation",
+    "isLeadership": false,
+    "activityPoints": {
+      "level1": 8,
+      "level2": 12,
+      "level3": 20,
+      "level4": 40,
+      "level5": 60
+    },
+    "leadershipPoints": {
+      "coreCoordinator": null,
+      "subCoordinator": null,
+      "volunteer": null
+    },
+    "maxPoints": 60,
+    "minDuration": 1
+  },
+  {
+    "activityHead": "Sports & Games Participation",
+    "activity": "Literary arts - First Prize",
+    "isLeadership": false,
+    "activityPoints": {
+      "level1": 10,
+      "level2": 10,
+      "level3": 10,
+      "level4": 20,
+      "level5": 20
+    },
+    "leadershipPoints": {
+      "coreCoordinator": null,
+      "subCoordinator": null,
+      "volunteer": null
+    },
+    "maxPoints": 80,
+    "minDuration": 1
+  },
+  {
+    "activityHead": "Sports & Games Participation",
+    "activity": "Literary arts - Second Prize",
+    "isLeadership": false,
+    "activityPoints": {
+      "level1": 8,
+      "level2": 8,
+      "level3": 8,
+      "level4": 16,
+      "level5": 16
+    },
+    "leadershipPoints": {
+      "coreCoordinator": null,
+      "subCoordinator": null,
+      "volunteer": null
+    },
+    "maxPoints": 80,
+    "minDuration": 1
+  },
+  {
+    "activityHead": "Sports & Games Participation",
+    "activity": "Literary arts - Third Prize",
+    "isLeadership": false,
+    "activityPoints": {
+      "level1": 5,
+      "level2": 5,
+      "level3": 5,
+      "level4": 12,
+      "level5": 12
+    },
+    "leadershipPoints": {
+      "coreCoordinator": null,
+      "subCoordinator": null,
+      "volunteer": null
+    },
+    "maxPoints": 80,
+    "minDuration": 1
+  },
+  {
+    "activityHead": "Professional Self Initiatives",
+    "activity": "Tech Fest, Tech Quiz",
+    "isLeadership": false,
+    "activityPoints": {
+      "level1": 10,
+      "level2": 20,
+      "level3": 30,
+      "level4": 40,
+      "level5": 50
+    },
+    "leadershipPoints": {
+      "coreCoordinator": null,
+      "subCoordinator": null,
+      "volunteer": null
+    },
+    "maxPoints": 50,
+    "minDuration": 1
+  },
+  {
+    "activityHead": "Professional Self Initiatives",
+    "activity": "MOOC with final assessment certificate",
+    "isLeadership": false,
+    "activityPoints": {
+      "level1": 50,
+      "level2": 50,
+      "level3": 50,
+      "level4": 50,
+      "level5": 50
+    },
+    "leadershipPoints": {
+      "coreCoordinator": null,
+      "subCoordinator": null,
+      "volunteer": null
+    },
+    "maxPoints": 50,
+    "minDuration": 1
+  },
+  {
+    "activityHead": "Professional Self Initiatives",
+    "activity": "Competitions conducted by Professional Societies - (IEEE,IET, ASME, SAE,NASA etc.)",
+    "isLeadership": false,
+    "activityPoints": {
+      "level1": 10,
+      "level2": 15,
+      "level3": 20,
+      "level4": 30,
+      "level5": 40
+    },
+    "leadershipPoints": {
+      "coreCoordinator": null,
+      "subCoordinator": null,
+      "volunteer": null
+    },
+    "maxPoints": 40,
+    "minDuration": 1
+  },
+  {
+    "activityHead": "Professional Self Initiatives",
+    "activity": "Attending Full time Conference/Seminars/Exhibitions/Workshop/STTP conducted at IITs/NITs",
+    "isLeadership": false,
+    "activityPoints": {
+      "level1": 20,
+      "level2": 20,
+      "level3": 20,
+      "level4": 20,
+      "level5": 20
+    },
+    "leadershipPoints": {
+      "coreCoordinator": null,
+      "subCoordinator": null,
+      "volunteer": null
+    },
+    "maxPoints": 40,
+    "minDuration": 1
+  },
+  {
+    "activityHead": "Professional Self Initiatives",
+    "activity": "Paper presentation/publication at IITs/NITs",
+    "isLeadership": false,
+    "activityPoints": {
+      "level1": 30,
+      "level2": 30,
+      "level3": 30,
+      "level4": 30,
+      "level5": 30
+    },
+    "leadershipPoints": {
+      "coreCoordinator": null,
+      "subCoordinator": null,
+      "volunteer": null
+    },
+    "maxPoints": 40,
+    "minDuration": 1
+  },
+  {
+    "activityHead": "Professional Self Initiatives",
+    "activity": "Poster Presentation at IITs /NITs",
+    "isLeadership": false,
+    "activityPoints": {
+      "level1": 20,
+      "level2": 20,
+      "level3": 20,
+      "level4": 20,
+      "level5": 20
+    },
+    "leadershipPoints": {
+      "coreCoordinator": null,
+      "subCoordinator": null,
+      "volunteer": null
+    },
+    "maxPoints": 30,
+    "minDuration": 1
+  },
+  {
+    "activityHead": "Professional Self Initiatives",
+    "activity": "Industrial Training/Internship (atleast for 5 full days)",
+    "isLeadership": false,
+    "activityPoints": {
+      "level1": 20,
+      "level2": 20,
+      "level3": 20,
+      "level4": 20,
+      "level5": 20
+    },
+    "leadershipPoints": {
+      "coreCoordinator": null,
+      "subCoordinator": null,
+      "volunteer": null
+    },
+    "maxPoints": 20,
+    "minDuration": 1
+  },
+  {
+    "activityHead": "Professional Self Initiatives",
+    "activity": "Industrial/Exhibition visits",
+    "isLeadership": false,
+    "activityPoints": {
+      "level1": 5,
+      "level2": 5,
+      "level3": 5,
+      "level4": 5,
+      "level5": 5
+    },
+    "leadershipPoints": {
+      "coreCoordinator": null,
+      "subCoordinator": null,
+      "volunteer": null
+    },
+    "maxPoints": 10,
+    "minDuration": 1
+  },
+
+  {
+    "activityHead": "Professional Self Initiatives",
+    "activity": "Foreign Language Skill (TOFEL/IELTS/BEC exams etc.)",
+    "isLeadership": false,
+    "activityPoints": {
+      "level1": 50,
+      "level2": 50,
+      "level3": 50,
+      "level4": 50,
+      "level5": 50
+    },
+    "leadershipPoints": {
+      "coreCoordinator": null,
+      "subCoordinator": null,
+      "volunteer": null
+    },
+    "maxPoints": 50,
+    "minDuration": 1
+  },
+  {
+    "activityHead": "Entrepreneurship and Innovation",
+    "activity": "Start-up Company - Registered legally",
+    "isLeadership": false,
+    "activityPoints": {
+      "level1": 60,
+      "level2": 60,
+      "level3": 60,
+      "level4": 60,
+      "level5": 60
+    },
+    "leadershipPoints": {
+      "coreCoordinator": null,
+      "subCoordinator": null,
+      "volunteer": null
+    },
+    "maxPoints": 60,
+    "minDuration": 1
+  },
+  {
+    "activityHead": "Entrepreneurship and Innovation",
+    "activity": "Patent-Filed",
+    "isLeadership": false,
+    "activityPoints": {
+      "level1": 30,
+      "level2": 30,
+      "level3": 30,
+      "level4": 30,
+      "level5": 30
+    },
+    "leadershipPoints": {
+      "coreCoordinator": null,
+      "subCoordinator": null,
+      "volunteer": null
+    },
+    "maxPoints": 60,
+    "minDuration": 1
+  },
+  {
+    "activityHead": "Entrepreneurship and Innovation",
+    "activity": "Patent - Published",
+    "isLeadership": false,
+    "activityPoints": {
+      "level1": 35,
+      "level2": 35,
+      "level3": 35,
+      "level4": 35,
+      "level5": 35
+    },
+    "leadershipPoints": {
+      "coreCoordinator": null,
+      "subCoordinator": null,
+      "volunteer": null
+    },
+    "maxPoints": 60,
+    "minDuration": 1
+  },
+  {
+    "activityHead": "Entrepreneurship and Innovation",
+    "activity": "Patent- Approved",
+    "isLeadership": false,
+    "activityPoints": {
+      "level1": 50,
+      "level2": 50,
+      "level3": 50,
+      "level4": 50,
+      "level5": 50
+    },
+    "leadershipPoints": {
+      "coreCoordinator": null,
+      "subCoordinator": null,
+      "volunteer": null
+    },
+    "maxPoints": 60,
+    "minDuration": 1
+  },
+  {
+    "activityHead": "Entrepreneurship and Innovation",
+    "activity": "Patent- Licensed",
+    "isLeadership": false,
+    "activityPoints": {
+      "level1": 80,
+      "level2": 80,
+      "level3": 80,
+      "level4": 80,
+      "level5": 80
+    },
+    "leadershipPoints": {
+      "coreCoordinator": null,
+      "subCoordinator": null,
+      "volunteer": null
+    },
+    "maxPoints": 80,
+    "minDuration": 1
+  },
+  {
+    "activityHead": "Entrepreneurship and Innovation",
+    "activity": "Prototype developed and tested",
+    "isLeadership": false,
+    "activityPoints": {
+      "level1": 60,
+      "level2": 60,
+      "level3": 60,
+      "level4": 60,
+      "level5": 60
+    },
+    "leadershipPoints": {
+      "coreCoordinator": null,
+      "subCoordinator": null,
+      "volunteer": null
+    },
+    "maxPoints": 60,
+    "minDuration": 1
+  },
+  {
+    "activityHead": "Entrepreneurship and Innovation",
+    "activity": "Awards for Products developed",
+    "isLeadership": false,
+    "activityPoints": {
+      "level1": 60,
+      "level2": 60,
+      "level3": 60,
+      "level4": 60,
+      "level5": 60
+    },
+    "leadershipPoints": {
+      "coreCoordinator": null,
+      "subCoordinator": null,
+      "volunteer": null
+    },
+    "maxPoints": 60,
+    "minDuration": 1
+  },
+  {
+    "activityHead": "Entrepreneurship and Innovation",
+    "activity": "Innovative technologies developed and used by industries/users",
+    "isLeadership": false,
+    "activityPoints": {
+      "level1": 60,
+      "level2": 60,
+      "level3": 60,
+      "level4": 60,
+      "level5": 60
+    },
+    "leadershipPoints": {
+      "coreCoordinator": null,
+      "subCoordinator": null,
+      "volunteer": null
+    },
+    "maxPoints": 60,
+    "minDuration": 1
+  },
+  {
+    "activityHead": "Entrepreneurship and Innovation",
+    "activity": "Got venture capital funding for innovative ideas/products.",
+    "isLeadership": false,
+    "activityPoints": {
+      "level1": 80,
+      "level2": 80,
+      "level3": 80,
+      "level4": 80,
+      "level5": 80
+    },
+    "leadershipPoints": {
+      "coreCoordinator": null,
+      "subCoordinator": null,
+      "volunteer": null
+    },
+    "maxPoints": 80,
+    "minDuration": 1
+  },
+  {
+    "activityHead": "Entrepreneurship and Innovation",
+    "activity": "Startup Employment (Offering jobs to two persons less than Rs. 15000/- per month)",
+    "isLeadership": false,
+    "activityPoints": {
+      "level1": 80,
+      "level2": 80,
+      "level3": 80,
+      "level4": 80,
+      "level5": 80
+    },
+    "leadershipPoints": {
+      "coreCoordinator": null,
+      "subCoordinator": null,
+      "volunteer": null
+    },
+    "maxPoints": 80,
+    "minDuration": 1
+  },
+  {
+    "activityHead": "Entrepreneurship and Innovation",
+    "activity": "Societal innovations",
+    "isLeadership": false,
+    "activityPoints": {
+      "level1": 50,
+      "level2": 50,
+      "level3": 50,
+      "level4": 50,
+      "level5": 50
+    },
+    "leadershipPoints": {
+      "coreCoordinator": null,
+      "subCoordinator": null,
+      "volunteer": null
+    },
+    "maxPoints": 50,
+    "minDuration": 1
+  },
+
+  {
+    "activityHead": "Leadership & Management",
+    "activity": "Student Professional Societies (IEEE,IET, ASME, SAE,NASA etc.)",
+    "isLeadership": true,
+    "activityPoints": {
+      "level1": null,
+      "level2": null,
+      "level3": null,
+      "level4": null,
+      "level5": null
+    },
+    "leadershipPoints": {
+      "coreCoordinator": 15,
+      "subCoordinator": 10,
+      "volunteer": 5
+    },
+    "maxPoints": 40,
+    "minDuration": 1
+  },
+  {
+    "activityHead": "Leadership & Management",
+    "activity": "College Association Chapters (Mechanical, Civil, Electrical etc.)",
+    "isLeadership": true,
+    "activityPoints": {
+      "level1": null,
+      "level2": null,
+      "level3": null,
+      "level4": null,
+      "level5": null
+    },
+    "leadershipPoints": {
+      "coreCoordinator": 15,
+      "subCoordinator": 10,
+      "volunteer": 5
+    },
+    "maxPoints": 40,
+    "minDuration": 1
+  },
+  {
+    "activityHead": "Leadership & Management",
+    "activity": "Festival & Technical Events(College approved)",
+    "isLeadership": true,
+    "activityPoints": {
+      "level1": null,
+      "level2": null,
+      "level3": null,
+      "level4": null,
+      "level5": null
+    },
+    "leadershipPoints": {
+      "coreCoordinator": 15,
+      "subCoordinator": 10,
+      "volunteer": 5
+    },
+    "maxPoints": 40,
+    "minDuration": 1
+  },
+  {
+    "activityHead": "Leadership & Management",
+    "activity": "Hobby Clubs",
+    "isLeadership": true,
+    "activityPoints": {
+      "level1": null,
+      "level2": null,
+      "level3": null,
+      "level4": null,
+      "level5": null
+    },
+    "leadershipPoints": {
+      "coreCoordinator": 15,
+      "subCoordinator": 10,
+      "volunteer": 5
+    },
+    "maxPoints": 40,
+    "minDuration": 1
+  },
+  {
+    "activityHead": "Leadership & Management",
+    "activity": "Special Initiatives (Approval from College and University is mandatory)",
+    "isLeadership": true,
+    "activityPoints": {
+      "level1": null,
+      "level2": null,
+      "level3": null,
+      "level4": null,
+      "level5": null
+    },
+    "leadershipPoints": {
+      "coreCoordinator": 15,
+      "subCoordinator": 10,
+      "volunteer": 5
+    },
+    "maxPoints": 40,
+    "minDuration": 1
+  },
+  {
+    "activityHead": "Leadership & Management",
+    "activity": "Elected student representatives",
+    "isLeadership": true,
+    "activityPoints": {
+      "level1": null,
+      "level2": null,
+      "level3": null,
+      "level4": null,
+      "level5": null
+    },
+    "leadershipPoints": {
+      "coreCoordinator": 30,
+      "subCoordinator": 25,
+      "volunteer": 15
+    },
+    "maxPoints": 40,
+    "minDuration": 1
+  }
+]
