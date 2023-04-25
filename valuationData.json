@@ -209,7 +209,7 @@
     "minDuration": 1
   },
   {
-    "activityHead": "Sports & Games Participation",
+    "activityHead": "Cultural Activities Participation",
     "activity": "Music - First Prize",
     "isLeadership": false,
     "activityPoints": {
@@ -228,7 +228,7 @@
     "minDuration": 1
   },
   {
-    "activityHead": "Sports & Games Participation",
+    "activityHead": "Cultural Activities Participation",
     "activity": "Music - Second Prize",
     "isLeadership": false,
     "activityPoints": {
@@ -247,7 +247,7 @@
     "minDuration": 1
   },
   {
-    "activityHead": "Sports & Games Participation",
+    "activityHead": "Cultural Activities Participation",
     "activity": "Music - Third Prize",
     "isLeadership": false,
     "activityPoints": {
@@ -285,7 +285,7 @@
     "minDuration": 1
   },
   {
-    "activityHead": "Sports & Games Participation",
+    "activityHead": "Cultural Activities Participation",
     "activity": "Performing arts - First Prize",
     "isLeadership": false,
     "activityPoints": {
@@ -304,7 +304,7 @@
     "minDuration": 1
   },
   {
-    "activityHead": "Sports & Games Participation",
+    "activityHead": "Cultural Activities Participation",
     "activity": "Performing arts - Second Prize",
     "isLeadership": false,
     "activityPoints": {
@@ -323,7 +323,7 @@
     "minDuration": 1
   },
   {
-    "activityHead": "Sports & Games Participation",
+    "activityHead": "Cultural Activities Participation",
     "activity": "Performing arts - Third Prize",
     "isLeadership": false,
     "activityPoints": {
@@ -361,7 +361,7 @@
     "minDuration": 1
   },
   {
-    "activityHead": "Sports & Games Participation",
+    "activityHead": "Cultural Activities Participation",
     "activity": "Literary arts - First Prize",
     "isLeadership": false,
     "activityPoints": {
@@ -380,7 +380,7 @@
     "minDuration": 1
   },
   {
-    "activityHead": "Sports & Games Participation",
+    "activityHead": "Cultural Activities Participation",
     "activity": "Literary arts - Second Prize",
     "isLeadership": false,
     "activityPoints": {
@@ -399,7 +399,7 @@
     "minDuration": 1
   },
   {
-    "activityHead": "Sports & Games Participation",
+    "activityHead": "Cultural Activities Participation",
     "activity": "Literary arts - Third Prize",
     "isLeadership": false,
     "activityPoints": {
