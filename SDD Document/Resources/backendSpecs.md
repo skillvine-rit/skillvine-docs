@@ -1,3 +1,4 @@
+```
 Category Collection.
 The Category collection contains data on the points for each of the activities that students can participate in, following KTU guidelines and point allotment chart.
 
@@ -16,7 +17,9 @@ The Category collection contains data on the points for each of the activities t
    volunteer: {type: Number}; default null
 6. maxPoints: {type: Number}; required
 7. minDuration: {type: Number}; required
+```
 
+```
 Student Collection
 The Student collection stores information about the students.
 
@@ -27,14 +30,18 @@ The Student collection stores information about the students.
 5. admissionNumber: {type: String}; student's admission number; unique
 6. batch: {type: String}; student's batch
 7. profileImage: {type: String}; URL of the student's profile image; default '' (empty string)
+```
 
+```
 Teacher Collection
 The Teacher collection stores information about the teachers registered in the system.
 
 1. name: {type: String}; name of the teacher; required
 2. email: {type: String}; email of the teacher; required, unique
 3. password: {type: String}; password of the teacher; required
+```
 
+```
 Certificate Collection
 The Certificate collection stores information about certificates submitted by students for completing different activities.
 
@@ -53,16 +60,22 @@ The Certificate collection stores information about certificates submitted by st
 13. leadershipLevel: {type: Number}; default 0
 14. isLeadership: {type: Boolean}; default false
 15. remarks: {type: String}; default '' (empty string)
+```
 
+```
 Notification Collection
 The Notification collection stores the notifications sent to students.
 
 1. studentId: {type: mongoose.Types.ObjectId}; reference to Student Collection
 2. message: {type: String}; notification message; required
+```
 
+```
 Score Collection
 The Score collection stores information about the scores of students.
 
 1. targetScore: {type: Number}; default value is 100
 2. currentScore: {type: Number}; default value is 0
 3. studentId: {type: mongoose.Types.ObjectId}; reference to Student Collection
+
+```
