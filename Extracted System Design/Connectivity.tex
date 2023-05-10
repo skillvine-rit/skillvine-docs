@@ -1,0 +1,136 @@
+\section{Connectivity algorithm}
+
+\begin{frame}
+
+ \frametitle{\centering Module-2}
+    \framesubtitle{Connectivity Algorihtms}
+
+        \begin{itemize}
+            \item Student Login algo
+            \item Teacher Login algo
+            \item Student Dashboard algo
+            \item Certificate Add algo
+            \item Certificate view(Teacher and Student) algo
+            \item Report generating algo
+        \end{itemize}
+ 
+\end{frame}
+
+
+\begin{frame}{Student Login}
+    \framesubtitle{Connectivity Algorithm}
+        \begin{enumerate}
+\item User selects "Login as student".
+\item Student logs in with their institution email.
+\item Client sends request to server at api/auth/students/.
+\item Server checks if student exists in database. If not, redirect student to a data collection form to enter admission number, KTU ID, and name. Server updates student collection in database.
+\item Server generates access token for student.
+\item Server redirects student to dashboard using access token for subsequent requests.
+        \end{enumerate}
+    
+\end{frame}
+
+\begin{frame}{Teacher Login}
+    \framesubtitle{Connectivity Algorithm}
+        \begin{enumerate}            
+\item User selects "Login as teacher".
+\item Teacher logs in with their institution email.
+\item Client sends request to server at api/auth/teacher.
+\item Server checks if teacher exists in database. If not, create teacher in collection.
+\item Server generates access token for teacher.
+\item Server redirects teacher to student select page using access token for subsequent requests.
+        \end{enumerate}
+    
+\end{frame}
+
+
+\begin{frame}{Student Dashboard}
+    \framesubtitle{Connectivity algorithm}
+    \begin{enumerate}
+        
+
+\item Student logs in and is redirected to dashboard.
+\item Client sends GET request to server for notifications at api/students/notifications.
+\item Client displays notifications on the notification panel.
+\item Sidebar displays button to fetch student's current activity points.
+\item Client sends GET request to server at api/students/score and displays score in sidebar.
+\item Student can navigate to all pages from navbar on the left.
+    \end{enumerate}
+\end{frame}
+
+\begin{frame}{Teacher Dashboard}
+    \framesubtitle{Connectivity Algorithm}
+    \begin{enumerate}
+        
+\item Teacher logs in and is redirected to dashboard.
+\item Client sends GET request to server for all batches in database at api/batches.
+\item Client displays all batches on UI.
+\item Teacher selects a batch.
+\item Client sends GET request to server for all students in that batch at api/batches/{batchID}.
+\item Teacher selects a student.
+\item Client sends GET request to server for all certificates of that student at api/certificates/{studentID}.
+\item Client displays a page where all certificates are listed year-wise.
+    \end{enumerate}
+    
+\end{frame}
+
+\begin{frame}{Add Certificate}
+    \framesubtitle{Connectivity Algorithm}
+        \begin{enumerate}
+            
+
+\item Student selects "Add Certificate" from dashboard.
+\item Client sends GET request to server to fetch all available activities and categories of events.
+\item  Client displays available activities, categories of certificates in dropdown menus for student to select from.
+\item  Student selects certificate to add and enters required fields: student ID, certificate name, description, date, and any additional information.
+\item Client sends new certificate data as POST request to server at api/certificates.
+\item  Server updates student's certificate collection with new certificate.
+\item  Server sends response to client indicating success or failure of certificate addition.
+        \end{enumerate}
+    
+\end{frame}
+
+\begin{frame}{View Certificate}
+    \framesubtitle{Connectivity Algorithm}
+    \begin{enumerate}
+
+\item Student or teacher navigates to the certificates page.
+\item User clicks on a certificate.
+\item If specific certificate is selected, client sends GET request to server for certificate details at api/certificates/{certificateID}.
+\item  Server returns details of selected certificate.
+\item  Client displays selected certificate's details on separate page.
+    \end{enumerate}
+    
+\end{frame}
+
+\begin{frame}{Report generation}
+\framesubtitle{Connectivity Algorithm}
+    \begin{enumerate}
+        
+
+\item Teacher navigates to report generation page.
+\item Client sends GET request to server to fetch all available batches at api/batches.
+\item Server returns all available batches.
+\item Client displays all batches in dropdown menu for teacher to select from.
+\item Teacher selects a batch.
+\item If teacher clicks on "Generate Report":
+    \begin{enumerate}
+       
+    
+   \item Client sends GET request to server to fetch details for selected batch at api/reports/batches/{batchID}.
+   \item Client generates report based on data sent from server and creates PDF report.
+    \item Client displays generated report on separate PDF page and allows download.
+    \end{enumerate}
+\item  Else the client sends a GET request to server to fetch students at api/batches/{batchID}.
+\begin{enumerate}
+     
+
+   \item The client displays all students in a dropdown menu for the teacher to select from.
+ \item If teacher clicks on generate report here,
+   \item The client sends a GET request to server to fetch details for the selected student at api/reports/students/{studentID}.
+    \item The client generates the report based on the data sent from server and makes a PDF report.
+    \item The client displays the generated report on a separate PDF page and can download if they want.
+    \end{enumerate}
+    \end{enumerate}
+    
+\end{frame}

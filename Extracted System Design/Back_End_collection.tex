@@ -1,0 +1,121 @@
+
+\section{Back End}
+
+\begin{frame}
+
+ \frametitle{\centering Module-3}
+
+
+  \framesubtitle{Back End}
+  \begin{itemize}
+   \item Background collection 
+    \item End point table
+  \end{itemize}
+\end{frame}
+
+\begin{frame}{Category collection}
+
+The Category collection contains data on the points for each of the activities that students can participate in, following KTU guidelines and point allotment chart.
+
+\begin{enumerate}
+    \item activityHead: {type: String}; required
+    \item activity: {type: String}; required
+    \item isLeadership: {type: Boolean}; default false
+    \item activityPoints: {type: Object};
+    \begin{itemize}
+        \item level1: {type: Number}
+        \item level2: {type: Number}
+        \item level3: {type: Number}
+        \item level4: {type: Number}
+        \item level5: {type: Number}
+    \end{itemize}
+\end{enumerate}
+
+\end{frame}
+
+\begin{frame}{Category collection (Continued)}
+\begin{enumerate}[resume]
+    \item leadershipPoints: {type: Object};
+    \begin{itemize}
+        \item coreCoordinator: {type: Number}; default null
+        \item subCoordinator: {type: Number}; default null
+        \item volunteer: {type: Number}; default null
+    \end{itemize}
+    \item maxPoints: {type: Number}; required
+    \item minDuration: {type: Number}; required
+\end{enumerate}
+
+\end{frame}
+
+
+\begin{frame}{Student Collection}
+
+The Student collection stores information about the students.
+\begin{enumerate}
+
+\item  name: {type: String}; student's name; required
+\item email: {type: String}; student's email address; required; unique
+\item ktuId: {type: String}; KTU Id of the student; unique
+\item college: {type: String}; student's college; required; default 'RIT, Kottayam'
+\item admissionNumber: {type: String}; student's admission number; unique
+\item batch: {type: String}; student's batch
+\item profileImage: {type: String}; URL of the student's profile image; default '' (empty string)
+   \end{enumerate} 
+\end{frame}
+
+\begin{frame}{Teacher Collection}
+
+\begin{enumerate}
+  
+
+ \item name: {type: String}; name of the teacher; required
+\item email: {type: String}; email of the teacher; required, unique
+\item password: {type: String}; password of the teacher; required
+\end{enumerate}    
+\end{frame}
+
+
+\begin{frame}{Certificate collection}
+The Certificate collection stores information about certificates submitted by students for completing different activities.
+    \begin{enumerate}
+\item 1. categoryId: {type: mongoose.Schema.Types.ObjectId}; reference to Category Collection
+\item 2. certificateName: {type: String}; name or title of certificate; required
+\item studentId: {type: mongoose.Schema.Types.ObjectId}; reference to Student Collection; required
+\item level: {type: Number}; default 0
+\item points: {type: Number}
+\item duration: {type: Number}; required
+\item year: {type: Number}; required
+\item status: {type: String}; 'pending', 'approved', 'rejected', or 'unapplied'; default 'pending'
+   
+
+\item status: {type: String}; 'pending', 'approved', 'rejected', or 'unapplied'; default 'pending'
+\item certificateUrl: {type: String}; required
+\item certificateDescription: {type: String}; required
+\item lastVerifiedBy: {type: mongoose.Schema.Types.ObjectId}; reference to Teacher Collection; default null
+\item participationDate: {type: Date}; required
+\item leadershipLevel: {type: Number}; default 0
+\item isLeadership: {type: Boolean}; default false
+\item remarks: {type: String}; default '' (empty string)
+ \end{enumerate}
+\end{frame}
+
+\begin{frame}{Notification Collection}
+The Notification collection stores the notifications sent to students.
+\begin{enumerate}
+\item studentId: {type: mongoose.Types.ObjectId}; reference to Student Collection
+\item message: {type: String}; notification message; required
+\end{enumerate}
+    
+\end{frame}
+
+\begin{frame}{Score collection}
+The Score collection stores information about the scores of students.
+\begin{enumerate}
+    
+
+\item targetScore: {type: Number}; default value is 100
+\item currentScore: {type: Number}; default value is 0
+\item studentId: {type: mongoose.Types.ObjectId}; reference to Student Collection
+\end{enumerate}
+\end{frame}
+    
